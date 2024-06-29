@@ -13,7 +13,7 @@ But since it's being used, we should definitely improve it. The new Mode 4 is mu
 
 Lastly, the Operational Impact is spelled out in plain language and color coded so it's more obvious when a fix may negatively impact operations:
 
-![2023-12-16-Locksmith v2023-12 is now available!](images/2023-12-16-Locksmith%20v2023-12%20is%20now%20available!.png)
+![2023-12-16-Locksmith v2023-12 is now available!]({{ site.baseurl }}/images/2023-12-16-Locksmith%20v2023-12%20is%20now%20available!.png)
 
 After Locksmith is done fixing stuff on your behalf, you'll get an indicator that it's done instead of just dropping back to the console.
 
