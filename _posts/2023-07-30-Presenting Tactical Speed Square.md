@@ -20,4 +20,4 @@ Grab the tool here: [https://github.com/TrimarcJake/Locksmith/blob/experimental/
 
 This is all very manual and very fragile for now, but it gets the job done and was fun to write!
 
-As for the name… well what's the best way to open a lock? Hint: https://www.youtube.com/shorts/Eii8JroovjI
+As for the name… well what's the best way to open a lock? Hint: [https://www.youtube.com/shorts/Eii8JroovjI](https://www.youtube.com/shorts/Eii8JroovjI)
