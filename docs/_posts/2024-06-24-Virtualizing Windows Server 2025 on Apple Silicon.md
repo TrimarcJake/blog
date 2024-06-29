@@ -11,9 +11,9 @@ Hi everyone. My name is Jake... and I'm a Mac user.
 
 The (not very) big secret is out.
 
-I lead a service focused on assessing the security of one of Microsoft's most used technologies (Active Directory [AD]), but I use a MacBook Air M1 as my daily driver. How did I get here?
+In my day job, I lead a [service](https://www.trimarcsecurity.com/ad-security-assessment) focused on assessing the security of one of Microsoft's most used technologies, Active Directory [AD]. But for 18 years, I've use a MacBook as my daily driver. How did I get here?
 
-(If you don't care about why I'm a Mac user, skip to the **How To **section.)
+(If you don't care about why I'm a Mac user, skip to the **How To** section.)
 
 ## Some History
 
@@ -117,7 +117,7 @@ Click the **Fetch latest Windows installer...** link. This opens CrystalFetch.
 Select **Windows 11** and click the **Download...** button. When CrystalFetch is done generating the ISO, you will be prompted to save it somewhere. Save it somewhere you'll remember because you'll need it in the next step.
 ![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-82]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-82.png)
 
-Under "Boot ISO Image" click the **Browse... **button and select the ISO you just saved. You already forgot where you saved it, didn't you?
+Under "Boot ISO Image" click the **Browse...** button and select the ISO you just saved. You already forgot where you saved it, didn't you?
 ![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-83]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-83.png)
 
 On the "Hardware", "Storage", and "Shared Directory" pages, feel free to modify as you wish then click the **Continue** button. I modified nothing because I am using the laziest method possible.
@@ -170,7 +170,7 @@ Whatever you decide, you need to click **Create download package** when you are 
 When the download package is complete (it's very small), click **Open file**  to open the compressed package.
 ![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-95]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-95.png)
 
-While viewing the contents of the download package file, click the 3 dots and choose **### Extract all**. 
+While viewing the contents of the download package file, click the 3 dots and choose **Extract all**. 
 ![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-96]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-96.png)
 
 Extract the package contents to a location you will remember. I am lazy, so I accepted the defaults.
@@ -243,10 +243,11 @@ Note: I am not detailing the installation process for Windows Server 2025. It's 
 
 Now that Server 2025 is installed, do something fun with it:
 * Install AD DS + DNS/DHCP
-* Run BlueTuxedo to find out-of-the-box DNS issues you can fix to immediately improve DNS security.
+* Run [BlueTuxedo](https://github.com/TrimarcJake/BlueTuxedo) to find out-of-the-box DNS issues you can fix to immediately improve DNS security.
 * Install AD CS
-* Run Invoke-TSS.ps1 to screw up your AD CS!
-* Invoke-Locksmith to find all the issues TSS created so you can clean them up.
-* Run BadBlood then use ADeleg + ADeleginator to identify permission delegation issues.
+* Run [Invoke-TSS.ps1](https://github.com/TrimarcJake/Locksmith/blob/main/Tests/Invoke-TSS.ps1) to screw up your AD CS!
+* Run [Locksmith](https://github.com/TrimarcJake/Locksmith) to find all the issues TSS created so you can clean them up.
+* Run [BadBlood](https://github.com/davidprowe/BadBlood) to create a bunch of dangerous permission delegation issues.
+* Use [ADeleg](https://github.com/mtth-bfft/adeleg) + [ADeleginator](https://github.com/techspence/ADeleginator) to identify permission delegation issues.
 
 If this guide inspires you to install Server 2025 on ARM, please reach out to me at jake@dotdot.horse to let me know how it went. I'm always looking to improve my documentation, and I'd love to hear what cool stuff people are doing with Apple Silicon!
