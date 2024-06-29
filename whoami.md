@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: whoami
+permalink: /whoami/
 ---
 
 Jake Hildreth is a man of many roles - a devoted husband, a fun-loving dad, and a seasoned IT expert.
