@@ -6,7 +6,6 @@ modification_date: October 15, 2023
 
 
 # Upgrading Mattermost on Docker
-# 
 
 For the last two months-ish, I've been getting notifications that the Locksmith/BlueTuxedo Mattermost server was going out of support. Two days ago, I started getting notifications in the mobile app that the server was officially unsupported.
 
