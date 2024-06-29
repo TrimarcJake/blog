@@ -114,7 +114,7 @@ Click the **Windows** button.
 Click the **Fetch latest Windows installer...** link. This opens CrystalFetch.
 ![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-81]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-81.png)
 
-Select **Windows 11 **and click the **Download...** button. When CrystalFetch is done generating the ISO, you will be prompted to save it somewhere. Save it somewhere you'll remember because you'll need it in the next step.
+Select **Windows 11** and click the **Download...** button. When CrystalFetch is done generating the ISO, you will be prompted to save it somewhere. Save it somewhere you'll remember because you'll need it in the next step.
 ![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-82]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-82.png)
 
 Under "Boot ISO Image" click the **Browse... **button and select the ISO you just saved. You already forgot where you saved it, didn't you?
@@ -147,7 +147,7 @@ Head to uupdump.net and search for "server arm64" to get a list of available 202
 When you search, you'll be presented with a list of results that looks something like this:
 ![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-90]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-90.png)
 
-The results are a mix of installation media and updates. Dig through until you find installation media that suits your level of danger: release or pre-release. I like to live dangerously, so I selected " Windows Server Insider Preview 26212.5000 (ge_prerelease) arm64" (https://uupdump.net/selectlang.php?id=cb985455-1f1d-43fd-9208-3bd74477d90e)
+The results are a mix of installation media and updates. Dig through until you find installation media that suits your level of danger: release or pre-release. I like to live dangerously, so I selected " Windows Server Insider Preview 26212.5000 (ge_prerelease) arm64": [https://uupdump.net/selectlang.php?id=cb985455-1f1d-43fd-9208-3bd74477d90e](https://uupdump.net/selectlang.php?id=cb985455-1f1d-43fd-9208-3bd74477d90e)
 
 Click the link!
 
@@ -167,27 +167,23 @@ Whatever you decide, you need to click **Create download package** when you are 
 
 ![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-94]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-94.png)
 
-### When the download package is complete (it's very small), click **### Open file**###  to open the compressed package.
-![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-95]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-95.png)**
-**
-### While viewing the contents of the download package file, click the 3 dots and choose **### Extract all**### .**### 
-**
-**![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-96]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-96.png)
-****### 
-**
-### Extract the package contents to a location you will remember. I am lazy, so I accepted the defaults.**### 
-**
-**![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-97]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-97.png)
-**### 
+When the download package is complete (it's very small), click **Open file**  to open the compressed package.
+![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-95]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-95.png)
 
-### The extracted files will be displayed in a folder. Right-click uup_download_windows.cmd and select **### Run as administrator**### .
-![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-98]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-98.png)**
-**
+While viewing the contents of the download package file, click the 3 dots and choose **### Extract all**. 
+![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-96]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-96.png)
+
+Extract the package contents to a location you will remember. I am lazy, so I accepted the defaults.
+![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-97]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-97.png)
+
+The extracted files will be displayed in a folder. Right-click uup_download_windows.cmd and select **Run as administrator**.
+![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-98]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-98.png)
+
 You will likely be presented with a scary prompt about Windows protecting you from yourself. Click **More info** and **Run anyway**.
-![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-99]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-99.png)**
-**
-![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-100]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-100.png)**
-**
+![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-99]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-99.png)
+
+![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-100]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-100.png)
+
 A Windows Terminal window will pop up and ask you if you want to run an unsigned script. Enter **R** and press Enter.
 ![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-101]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-101.png)
 
@@ -196,25 +192,23 @@ You will then begin seeing files download and stuff happening. Just relax. Depen
 
 If you get hit with an error that you downloaded no files, try the process again. If you get the same error a second time, head back to uupdump.net and pick a different installation package.
 
-Once the files are downloaded, the installer/converter (aria2) will compile the downloaded UUP files into a bootable ISO. If everything worked correctly, you will see:**Finished**
-**Press 0 or q to quit**
-**
-**
-Press 0 or q.**
-**
-![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-103]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-103.png)**
-**
+Once the files are downloaded, the installer/converter (aria2) will compile the downloaded UUP files into a bootable ISO. If everything worked correctly, you will see:
+```
+Finished
+Press 0 or q to quit
+```
+Press 0 or q.
+![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-103]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-103.png)
+
 You should now see an ISO file!
-![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-104]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-104.png)**
-**
-**### Transferring the ISO**
-**
-**
+![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-104]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-104.png)
+
+### Transferring the ISO
 So now you have an ISO file... but it's on the Windows 11 VM's storage. You need it on your Mac's storage so you can use it for the next section. Thankfully, UTM allows you to share folders on the host machine to make them available in the guest VM.
 
 Unfortunately, I cannot seem to get this file transfer process working consistently using UTM's shared directory tools, so this step is currently left as an exercise for the reader. I uploaded my ISO to iCloud temporarily and then downloaded it to my Mac.
 
-**### Install Server 2025-on-ARM**
+### Install Server 2025-on-ARM
 
 This section is pretty much a duplicate of the "Install Windows 11-on-ARM" section above, but I'm including it for completeness.
 
