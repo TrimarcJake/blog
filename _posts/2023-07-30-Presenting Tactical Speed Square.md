@@ -16,7 +16,7 @@ Instead, I decided to write a script that would generate a bunch of vulnerable t
 
 More importantly, the script creates a bunch of templates and objects that recreate acceptable configurations which should not be identified by AD CS vulnerability scanning tools (like Locksmith, Certify, Certipy, etc.)
 
-Grab the tool here: https://github.com/TrimarcJake/Locksmith/blob/experimental/Tests/Invoke-TSS.ps1
+Grab the tool here: [https://github.com/TrimarcJake/Locksmith/blob/experimental/Tests/Invoke-TSS.ps1](https://github.com/TrimarcJake/Locksmith/blob/experimental/Tests/Invoke-TSS.ps1)
 
 This is all very manual and very fragile for now, but it gets the job done and was fun to write!
 
