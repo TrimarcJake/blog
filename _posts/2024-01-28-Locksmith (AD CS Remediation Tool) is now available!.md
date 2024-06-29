@@ -17,18 +17,18 @@ Or install from PSGallery:
 `Install-Module -Name Locksmith -Scope CurrentUser`
 
 ## Improvements:
-* ESC4 and ESC5 Ownership issues can now be auto-remediated with -Mode 4. - **@TrimarcJake**
+* ESC4 and ESC5 Ownership issues can now be auto-remediated with `-Mode 4`. - **@TrimarcJake**
 * Improved RSAT installation process (if you don't have it installed yet.) - **@techspence**
-* Modern custom object creation (no more Add-Member means slightly faster code that's much easier to read code) - **@TrimarcJake**
-* README now shows how to use the -Scans parameter to limit your search to just a specific issue. - **@SamErde**
+* Modern custom object creation (no more `Add-Member` means slightly faster code that's much easier to read code) - **@TrimarcJake**
+* README now shows how to use the `-Scans` parameter to limit your search to just a specific issue. - **@SamErde**
 * We now have CONTRIBUTING and CODE_OF_CONDUCT docs. They're not quite where we want them, but soon! - **@TrimarcJake**
 * PSScriptAnalyzer actions run on commit now, so we can check if there's anything hinky going on. - **@SamErde**
 * Badges! Icons! - **@SamErde**
 
-## Known Issues:**
+## Known Issues:
 * Objects with both Allow and Deny ACEs reports two issues in output (I promise I'll *think* about working on this one for February. :D)
 
-## Contributors:**
+## Contributors:
 * **@SamErde**
 * **@techspence**
 * **@TrimarcJake**
