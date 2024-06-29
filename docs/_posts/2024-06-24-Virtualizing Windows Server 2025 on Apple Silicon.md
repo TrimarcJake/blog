@@ -86,7 +86,7 @@ This is a distilled version of what ended up working *for me*. There are other a
 
 ### Install UTM
 
-https://apps.apple.com/us/app/utm-virtual-machines/id1538878817
+[https://apps.apple.com/us/app/utm-virtual-machines/id1538878817](https://apps.apple.com/us/app/utm-virtual-machines/id1538878817)
 
 UTM is a GUI front-end for QEMU. It makes the process of booting and running a VM pretty easy. And because it uses QEMU, you can emulate a bunch of other processor architectures (at a speed cost). But hey, if you wanna emulate Win 3.11, you can!
 
@@ -94,7 +94,7 @@ I think there's a monetary cost for the prebuilt version of UTM  available in th
 
 ### Install CrystalFetch
 
-https://apps.apple.com/us/app/crystalfetch-iso-downloader/id6454431289?mt=12
+[https://apps.apple.com/us/app/crystalfetch-iso-downloader/id6454431289?mt=12](https://apps.apple.com/us/app/crystalfetch-iso-downloader/id6454431289?mt=12)
 
 CrystalFetch is used by UTM to create ISOs from information found on uupdump.net which itself pulls UUP files from Microsoft's official UUP repositories.
 
