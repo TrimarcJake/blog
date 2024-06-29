@@ -1,5 +1,5 @@
 ---
-title: Locksmith Rework, Day 1:
+title: Locksmith Rework, Day 1
 creation_date: July 8, 2023
 modification_date: July 12, 2023
 ---
