@@ -27,7 +27,8 @@ url: trimarcjake.github.io # the base hostname & protocol for your site, e.g. ht
 github_username:  TrimarcJake
 
 # Build settings
-theme: pages-themes/cayman@v0.2.0
+# theme: minima
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
