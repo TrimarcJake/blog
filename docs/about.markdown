@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Jake Hildreth is a man of many roles - a devoted husband, a fun-loving dad, and a seasoned IT expert.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+With over twenty years entrenched in the world of technology, he serves as a trusted Senior Security Consultant at Trimarc, leading Trimarc's Active Directory (AD) Security Assessment. Jake's daily mission involves bolstering the digital fortifications of major corporations, ensuring their AD security is rock solid.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+His creations, Locksmith and BlueTuxedo, attempt to alleviate the burden on overworked AD administrators, while his CISSP certification stands as a badge of his wide-ranging expertise and experience.
