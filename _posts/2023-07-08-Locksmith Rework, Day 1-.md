@@ -58,7 +58,7 @@ Now **this** is a bug I can fix.  I updated the build script, and everything was
 Now let's move on to installing and building on a fresh machine!
 ### Attempting to build on a new machine.
 I decided to try and add auto-installation of PSPublishModule to the Build-Module.ps1 script to make it easier to use by adding the following:
-```
+```powershell
 $ErrorActionPreference = 'Stop'
 
 if (Get-Module -Name 'PSPublishModule' -ListAvailable) { 
@@ -77,7 +77,7 @@ Import-Module -Name PSPublishModule -Force
 I quickly ran into the same 'package in use' and Pester conflict issues I noticed before.
 
 I modified my code to this:  
-```
+```powershell
 $ErrorActionPreference = 'Stop'
 
 if (Get-Module -Name 'PSPublishModule' -ListAvailable) { 
