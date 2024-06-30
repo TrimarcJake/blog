@@ -4,4 +4,3 @@
 
 layout: home
 ---
-What happens if I add stuff here?
