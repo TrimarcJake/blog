@@ -3,10 +3,6 @@ title: Virtualizing Windows Server 2025 on Apple Silicon
 creation_date: June 24, 2024
 modification_date: June 29, 2024
 ---
-
-
-# Virtualizing Windows Server 2025 on Apple Silicon
-
 Hi everyone. My name is Jake... and I'm a Mac user. 
 
 The (not very) big secret is out.

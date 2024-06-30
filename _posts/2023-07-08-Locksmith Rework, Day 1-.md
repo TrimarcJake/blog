@@ -3,9 +3,6 @@ title: Locksmith Rework, Day 1
 creation_date: July 8, 2023
 modification_date: July 12, 2023
 ---
-
-
-# Locksmith Rework, Day 1:
 It's 6:16am on a Saturday, so obviously it's time to work on code. 
 
 This morning, I am attempting to build the next release of Locksmith using the tools created by Przemyslaw Klys. 

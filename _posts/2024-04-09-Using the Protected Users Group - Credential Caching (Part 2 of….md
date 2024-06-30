@@ -3,10 +3,6 @@ title: Using the Protected Users Group - Credential Caching (Part 2 of…
 creation_date: April 9, 2024
 modification_date: April 22, 2024
 ---
-
-
-# Using the Protected Users Group - Credential Caching (Part 2 of ?)
-
 In today's episode, we’ll be getting into credential caching and why membership in the Protected Users Group (PUG) eliminates it.
 
 In Active Directory-based environments, there are credentials *everywhere*:

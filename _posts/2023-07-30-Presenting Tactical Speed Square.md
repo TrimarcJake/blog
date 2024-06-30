@@ -3,9 +3,6 @@ title: Presenting Tactical Speed Square
 creation_date: July 30, 2023
 modification_date: July 30, 2023
 ---
-
-# Presenting Tactical Speed Square
-
 **aka The UnLocksmith**
 
 I had a couple hernias repaired Friday and thus planned to be pretty much couch-bound all weekend. So of course I woke up Saturday morning with a desire to work on code. 

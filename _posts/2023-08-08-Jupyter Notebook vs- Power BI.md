@@ -3,16 +3,10 @@ title: Jupyter Notebook vs. Power BI
 creation_date: August 8, 2023
 modification_date: August 8, 2023
 ---
-
-
-# Jupyter Notebook vs. Power BI
-
 On Sunday, Sam reminded me that Jupyter Notebooks exist and asked if Locksmith should provide a Remediation Guide in the form of a Jupyter Notebook (JN).
 
 He's 100% correct, and it would be amazing. A JN could provide:
 * Summary of Findings
-	* 
-
 * A Sorted list of Active Directory Certificate Services (AD CS) findings with the following included for each:
 	* Finding
 		* Asset

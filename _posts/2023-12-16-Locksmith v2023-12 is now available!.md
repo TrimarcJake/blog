@@ -3,10 +3,6 @@ title: Locksmith v2023.12 is now available!
 creation_date: December 16, 2023
 modification_date: December 16, 2023
 ---
-
-
-# Locksmith v2023.12 is now available!
-
 This month, the Locksmith team discovered people are actually using Mode 4 (auto-remediation) in the wild. To be honest, we let Mode 4 languish because none of us would trust a fully automated remediation tool... even if we wrote it!
 
 But since it's being used, we should definitely improve it. The new Mode 4 is much more explicit about what the issue is, why it's an issue, and how it will be remediated.

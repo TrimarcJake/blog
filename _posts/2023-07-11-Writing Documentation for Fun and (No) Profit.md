@@ -3,9 +3,6 @@ title: Writing Documentation for Fun and (No) Profit
 creation_date: July 11, 2023
 modification_date: July 12, 2023
 ---
-
-
-# Writing Documentation for Fun and (No) Profit
 I know it may seem weird to some, but I enjoy writing process docs. I really enjoy taking a complex process, breaking it down into manageable repeatable steps, and finding the best way to explain those steps. By no means am I a great technical writer, but I don’t find it tedious (usually), so that’s something, right?
 
 Anyway, a work friend recently made a major upgrade to a small open-source project. The original project was pretty simple, so its  documentation was mostly unnecessary. 

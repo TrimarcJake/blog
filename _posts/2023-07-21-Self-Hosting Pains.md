@@ -3,9 +3,6 @@ title: Self-Hosting Pains
 creation_date: July 21, 2023
 modification_date: July 22, 2023
 ---
-
-
-# Self-Hosting Pains
 I host the Locksmith/BlueTuxedo Mattermost server on Oracle Cloud. It's free and fast, so why not?
 
 The "why not?" is because I don't want to be a sysadmin anymore. 

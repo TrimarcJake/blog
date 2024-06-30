@@ -3,10 +3,6 @@ title: LLMs Aren’t There Yet
 creation_date: February 3, 2024
 modification_date: February 3, 2024
 ---
-
-
-# LLMs Aren’t There Yet
-
 I just spent way too many hours installing local LLMs and asking them to write a super basic function:
 
 "Write a PowerShell core function that will get all members of the Protected Users groups in all domains in a forest. It should use .NET classes instead of the ActiveDirectory module."

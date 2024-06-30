@@ -3,10 +3,6 @@ title: Let's Talk About Nested Groups
 creation_date: August 2, 2023
 modification_date: August 13, 2023
 ---
-
-
-# Let's Talk About Nested Groups
-
 Today, I sat in on a report review for a small-ish environment. The customer had a couple thousand users, some domain controllers, some GPOs, etc. And like almost every customer I've interacted with in the last 2 years of employment with Trimarc, they had a couple Critical issues.
 
 But we're not here to talk about Critical issues today. Instead, a basic High issue: excessive membership in Active Directory  administration (AD Admin) groups due to <insert scary music> *Nested Groups! *More than 2% of the customer’s staff had AD Admin privileges because of these nested groups.
