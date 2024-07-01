@@ -7,7 +7,7 @@ Hi everyone. My name is Jake... and I'm a Mac user.
 
 The (not very) big secret is out.
 
-In my day job, I lead a [service](https://www.trimarcsecurity.com/ad-security-assessment) focused on assessing the security of one of Microsoft's most used technologies, Active Directory [AD]. But for 18 years, I've use a MacBook as my daily driver. How did I get here?
+In my day job, I lead a [service](https://www.trimarcsecurity.com/ad-security-assessment) focused on assessing the security of one of Microsoft's most used technologies, Active Directory [AD]. But for 18 years, I've used a MacBook as my daily driver. How did I get here?
 
 (If you don't care about why I'm a Mac user, skip to the **How To** section.)
 
@@ -155,7 +155,7 @@ Then select the editions you'd like to work with. I wanted a small installer, an
 
 ![2024-06-24-Virtualizing Windows Server 2025 on Apple Silicon-92]({{ site.baseurl }}/images/2024-06-24-Virtualizing%20Windows%20Server%202025%20on%20Apple%20Silicon-92.png)
 
-My laziness impels me to let other smarter people do things on my behalf, so I am choosing to download an installation package that compiles the downloaded UUP files and converts them into a single ISO for later use. If you know how to compile UUPs into an ISO, choose that option instead! Hopefully this is the most difficult choice you need to make today.
+My laziness impels me to let other smarter people do things on my behalf, so I am choosing to download an installation package that compiles the downloaded UUP files and converts them into a single ISO for later use. If you know how to compile UUPs into an ISO, choose that option instead! Hopefully, this is the most difficult choice you need to make today.
 
 Whatever you decide, you need to click **Create download package** when you are done.
 
