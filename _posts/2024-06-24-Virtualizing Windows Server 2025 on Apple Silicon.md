@@ -9,7 +9,7 @@ The (not very) big secret is out.
 
 In my day job, I lead a [service](https://www.trimarcsecurity.com/ad-security-assessment) focused on assessing the security of one of Microsoft's most used technologies, Active Directory [AD]. But for 18 years, I've used a MacBook as my daily driver. How did I get here?
 
-(If you don't care about why I'm a Mac user, skip to the **How To** section.)
+(If you don't care about why I'm a Mac user, skip to the [**How To**](#how-to) section.)
 
 ## Some History
 
@@ -57,7 +57,7 @@ But I wanted to test AD, and you can't stand up a forest without Windows Server,
 
 Recently, I randomly googled "server 2025 arm iso" and came across a few Reddit threads talking about the performance and support for Server 2025 on ARM... this looked promising.
 
-I grabbed some ISO packages from uupdump.net and spent a few hours building ISOs on my Mac. After building, I would attempt to use the ISOs in VMware Fusion and UTM, but I kept getting stuck in boot loops. Eventually, I realized it was way WAY past my bedtime and shut down for the night.
+I grabbed some ISO packages from [uupdump.net](https://uupdump.net) and spent a few hours building ISOs on my Mac. After building, I would attempt to use the ISOs in VMware Fusion and UTM, but I kept getting stuck in boot loops. Eventually, I realized it was way WAY past my bedtime and shut down for the night.
 
 The next morning, I re-read some of the threads from the night before and noticed my mistake. Apparently, you need to build the installation ISO on Windows. I'd been building my ISOs on macOS. As soon as I built the installation media on Windows, Server 2025 booted and installed!
 
