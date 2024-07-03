@@ -246,4 +246,4 @@ Now that Server 2025 is installed, do something fun with it:
 * Run [BadBlood](https://github.com/davidprowe/BadBlood) to create a bunch of dangerous permission delegation issues.
 * Use [ADeleg](https://github.com/mtth-bfft/adeleg) + [ADeleginator](https://github.com/techspence/ADeleginator) to identify permission delegation issues.
 
-If this guide inspires you to install Server 2025 on ARM, please reach out to me at jake@dotdot.horse to let me know how it went. I'm always looking to improve my documentation, and I'd love to hear what cool stuff people are doing with Apple Silicon!
+If this guide inspires you to install Server 2025 on ARM, please reach out to me at [jake@dotdot.horse](jake@dotdot.horse) to let me know how it went. I'm always looking to improve my documentation, and I'd love to hear what cool stuff people are doing with Apple Silicon!
