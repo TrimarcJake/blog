@@ -1,6 +1,6 @@
 ## Back Story
 
-([tl;dr here](#tl-dr))
+([tl;dr here](#tldr))
 
 While working on improved [ESC8](https://posts.specterops.io/certified-pre-owned-d95910965cd2) detections for [Locksmith](https://github.com/TrimarcJake/Locksmith), I built a thing that temporarily disabled certificate validity checks for the current PowerShell session. This was intended to be part of Locksmith 2024.9, but the .NET interface I used was only supported in WIndows PowerShell aka Desktop Edition aka PS5.1. PS7/.NET Core would complain about the interface no longer existing.
 
