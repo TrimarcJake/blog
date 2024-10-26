@@ -20,7 +20,7 @@ I restored the branch, then YOLO merged it into `testing` without review because
 
 ## tl;dr
 
-1. Visit the GitHub repo in question and click the "Activity" icon:![[Screenshot 2024-10-26 at 8.41.54 AM.png]]
+1. Visit the GitHub repo in question and click the "Activity" icon:![Screenshot 2024-10-26 at 8.41.54 AM.png]({{ site.baseurl}}/images/Screenshot 2024-10-26 at 8.41.54 AM.png)
 2. Find an entry in the activity log title "Deleted branch" that mentions the branch you deleted by mistake. Click the three dot menu `...` at the right end of the "Deleted branch" activity and choose "Restore Branch":![Screenshot 2024-10-26 at 8.50.18 AM.png]({{ site.baseurl}}/images/Screenshot 2024-10-26 at 8.50.18 AM.png)
 3. Wait a few minutes.
 4. Breathe a sigh of relief!
