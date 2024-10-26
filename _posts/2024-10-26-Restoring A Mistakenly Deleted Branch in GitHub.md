@@ -16,7 +16,7 @@ But I couldn't leave PS5.1 and PS7 with different levels of support. I spent som
 
 Shortly after releasing [Locksmith 2024.10](https://github.com/TrimarcJake/Locksmith/releases/tag/v2024.10), I was cleaning up branches (a clean repo is a happy repo), and saw the `add-ps7-support-to-esc8-detections` branch showing as active. I thought to myself "huh... musta forgot to delete after merging." I deleted the branch and moved on with my night.
 
-But I'd effed up. I never actually merged the changes into the testing branch which means they didn't make it into the main branch which means they didn't make it into the release packages. I realized my mistake earlier this week and began searching frantically for any machine that contained the branch so I could recreate it and get it into the 2024.11 release.
+But I'd effed up. I never actually merged the changes into the `testing` branch which means they didn't make it into the `main` branch which means they didn't make it into the [release packages](https://github.com/TrimarcJake/Locksmith/releases/). I realized my mistake earlier this week and began searching frantically for any machine that contained the branch so I could recreate it and get it into the 2024.11 release.
 
 I couldn't find the branch anywhere.
 
