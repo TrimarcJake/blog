@@ -12,6 +12,10 @@ Enterprise mode is when your CA is AD-integrated - with all the good and bad tha
 
 Thankfully, I remembered doing the same thing at my old job. A small voice in my head said "if you build it, they will come." So, I created a new container in the CN=Services,CN=Configuration,DC=BlueTuxedo,DC=DanglingSPNs,DC=lol and named in "Public Key Services".
 
-Boom, "Enterprise CA" is now available.
+~~Boom, "Enterprise CA" is now available.~~ Correction: You must close out of the AD CS installation process and start fresh. Otherwise, you will get hit with a weird error like:
+
+> Active Directory Certificate Services setup failed with the following error: (WIN32: 1168 ERROR_NOT_FOUND).
+
+What's that mean? ¯\_(ツ)_/¯
 
 I hope this helps you the next time you make this same dumb mistake, Future Jake.
