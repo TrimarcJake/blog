@@ -1,5 +1,5 @@
 ---
-title: 2024-12-09-Cannot Select "Enterprise CA" When Installing a New AD CS CA
+title: Cannot Select "Enterprise CA" When Installing a New AD CS CA
 creation_date: December 9, 2024
 modification_date: December 9, 2024
 ---
