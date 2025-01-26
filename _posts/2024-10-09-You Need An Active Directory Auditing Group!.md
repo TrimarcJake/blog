@@ -1,6 +1,11 @@
+---
+title: You Need An Active Directory Auditing Group!
+creation_date: October 9, 2024
+modification_date: January 26, 2025
+---
 In my work as the Service Lead for the Trimarc Active Directory Security Assessment (ADSA), I personally assess 6-10 AD forests per year and perform Subject Matter Expert review/QA on *so many* more. (Folks... I've seen some *stuff*.) Every assessment contains the same four phases: **c**ollection, **p**rocessing, **a**nalysis, and **p**resentation.
 
-In the first phase (collection), Trimarc provides the customer a bespoke PowerShell script which collects a metric shedload of data from the forest primarily using all Microsoft tools, but primarily the ActiveDirectory and GroupPolicy PowerShell modules. During collection, the customer runs the collector in their environment as a regular user account. This account usually has been granted no special privileges. In most environments, the collection tool runs great using a normal user account due to the open nature of AD.
+In the first phase (collection), Trimarc provides the customer a bespoke PowerShell script which collects a metric shedload of data from the forest using all Microsoft tools - primarily the `ActiveDirectory` and `GroupPolicy` PowerShell modules. During collection, the customer runs the collector in their environment as a regular user account. This account usually has been granted no special privileges. In most environments, the collection tool runs great using a normal user account due to the open nature of AD.
 
 What do I mean by "open nature"? Out of the box, a normal user can read most properties on most objects in a forest. But this openness is a double-edged sword. As you might suspect, this open approach also means any attacker that happens to land in your environment via ~~elite hacking~~ phishing can plunder the environment to find multiple gaps, holes, and paths to absolutely pwn your environment in minutes[^1].
 
@@ -24,4 +29,4 @@ To that end, I present to you a new PowerShell module: [ADAuditingGroup](https:/
 - `Set-ADAuditingGroupAcl` - Creates an ACE that grants `ReadProperty, GenericExecute` on all attributes of an object to a specific group then adds that ACE to all objects in the forest (except the `System` and `Configuration` containers).
 - `Remove-ADAuditingGroupAcl` - Creates an ACE that grants `ReadProperty, GenericExecute` on all attributes of an object to a specific group and removes that ACE from all objects in the forest.
 
-[^1]: Trimarc defines a Critical issue as any single issue in which a large number of users can compromise AD in one step OR a combination of issues in which all users can compromise AD in a few steps. We see an average of 1.6 Critical issues.
+[^1]: Trimarc defines a Critical issue as any single issue in which a large number of users can compromise AD in one step OR a combination of issues in which all users can compromise AD in a few steps. We see an average of 1.6 Critical issues per forest!
