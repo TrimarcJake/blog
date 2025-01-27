@@ -1,7 +1,7 @@
 ---
 title: Self-Hosting Pains
 creation_date: July 21, 2023
-modification_date: July 22, 2023
+modification_date: January 27, 2025
 ---
 I host the Locksmith/BlueTuxedo Mattermost server on Oracle Cloud. It's free and fast, so why not?
 
@@ -13,6 +13,6 @@ Since it's been about 3 months since I set up MM, I'd already forgotten everythi
 
 After a bit of digging and doc-reading, I saw Mattermost on Docker (in default config) uses a cert created on the host machine - not in the Docker container.
 
-Thankfully, this wonderful person already put together a guide on how to renew the cert: https://yaki.dev/renew%20ssl%20certificate%20of%20the%20mattermost/
+Thankfully, this wonderful person already put together a guide on how to renew the cert: [https://yaki.dev/renew ssl certificate of the mattermost/](https://yaki.dev/renew%20ssl%20certificate%20of%20the%20mattermost/)
 
 I plan to create a cron job to run these commands for me on two-monthly basis and never think about this task again. :D 
