@@ -16,3 +16,13 @@ After a bit of digging and doc-reading, I saw Mattermost on Docker (in default c
 Thankfully, this wonderful person already put together a guide on how to renew the cert: [https://yaki.dev/renew ssl certificate of the mattermost/](https://yaki.dev/renew%20ssl%20certificate%20of%20the%20mattermost/)
 
 I plan to create a cron job to run these commands for me on two-monthly basis and never think about this task again. :D 
+
+EDIT (2025-01-27)
+I should just include the commands here!
+
+``` bash
+cd docker
+sudo docker-compose -f docker-compose.yml -f docker-compose.nginx.yml down
+sudo bash scripts/issue-certificate.sh -d [domain.one],[domain.two] -o ${PWD}/certs
+sudo docker-compose -f docker-compose.yml -f docker-compose.nginx.yml up -d
+```
